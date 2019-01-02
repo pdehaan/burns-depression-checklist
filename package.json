@@ -1,0 +1,41 @@
+{
+  "name": "areyoudepressed",
+  "description": "## Project setup ``` npm install ```",
+  "version": "0.1.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/burns-depression-checklist/issues"
+  },
+  "dependencies": {
+    "vue": "^2.5.21"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "homepage": "https://areyoudepressed.now.sh",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "babel.config.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/burns-depression-checklist.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "deploy": "now ./dist",
+    "lint": "vue-cli-service lint",
+    "postdeploy": "# now alias https://_____.now.sh https://areyoudepressed.now.sh",
+    "prebuild": "npm run lint",
+    "predeploy": "npm run build",
+    "serve": "vue-cli-service serve"
+  }
+}

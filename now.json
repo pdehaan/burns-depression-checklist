@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "areyoudepressed",
+  "builds": [
+    { "src": "dist/**", "use": "@now/static" }
+  ],
+  "public": true,
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

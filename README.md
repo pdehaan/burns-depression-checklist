@@ -1,4 +1,4 @@
-# checklist
+# Burn's Depression Checklist
 
 ## Project setup
 ```
